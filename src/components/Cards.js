@@ -5,9 +5,12 @@ import records from './data.json'
 function Cards(title, imageUrl, body) {
   return (
     <div className="App">
+     
       {
         records.map(record => {
           return (
+            
+            
             <div className="card-container">
               <div className="image-container">
                 <img src="http://www.solidbackgrounds.com/images/1920x1080/1920x1080-red-solid-color-background.jpg" height={6} width={303} alt='' />
@@ -46,6 +49,7 @@ function Cards(title, imageUrl, body) {
               </div>
 
             </div>
+        
 
           )
         }

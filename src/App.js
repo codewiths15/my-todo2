@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import  Cards from './components/Cards'
-import { Polygon } from 'react-awesome-shapes/dist/shapes/polygon';
+import Title from './components/Title';
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       imageUrl='https://tse3.mm.bing.net/th?id=OIP.zEYXEPspver3gnxgumhhqwHaGL&pid=Api&P=0'
       body='hjiuhhhh'
       />
+      <Title/>
     </div >
 
 
